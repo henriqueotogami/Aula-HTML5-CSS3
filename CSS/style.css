@@ -17,6 +17,8 @@ header{
 }
 
 body{
+    width: 96vw;
+    height: 96vh;
     background: var(--color-page-background);
     margin: 2vh 2vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -88,9 +90,10 @@ hr{
 }
 
 .social-box img{
-    width: 10vw;
-    height: 6vh;  
-    margin-right: 6vw;
+    width: 11vw;
+    height: 5.5vh;
+    margin-top: 0.2vh;  
+    margin-right: 4.5vw;
     display: inline-flex;
     align-content: center;  
 }
@@ -98,7 +101,7 @@ hr{
 .about{
     background-color: var(--color-sub-box-background);
     width: 58vw;
-    height: 12vh;
+    height: 15vh;
     margin-top:1vh;
     padding: 1vh;
     display: flex;
@@ -112,7 +115,7 @@ hr{
 
 .about p{
     color: var(--color-subtitle);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 1vh;
     text-align: justify;
     flex-direction: column;
@@ -125,26 +128,33 @@ hr{
 
 .project-main-box {
     background-color: var(--color-box-background);
-    width: 58vw;
-    height: 32vh;
+    width: 56vw;
+    height: 40vh;
     padding-left: 2vw;
     padding-right: 2vw; 
+    position: relative;
 }
 
-.project-main-box h2{
-    font-size: 2rem;
+.project-main-box-title{
+    background-color: var(--color-box-background);
+    width: 56vw;
+}
+
+.project-main-box-title h2{
+    font-size: 3rem;
     display: inline-flex;
 }
 
 .project-main-box h3{
     font-size: 2rem;
     margin-top: 2vh;
-    display: inline-flex;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-main-box p{
     color: var(--color-subtitle);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin-top: 2vh;
     margin-bottom: 2vh;
     text-align: justify;
@@ -158,39 +168,41 @@ hr{
     flex-direction: column;
 }
 
-.project-main-box img{
-    margin-left: 38vw;
-    width: 5vw;
+.project-main-box img {
+    width: 10vw;
     display: inline-flex;
+    align-content: flex-end;
+    position: absolute;
+    right:2vw;
 }
 
 .project-sub-box {
     background-color: var(--color-sub-box-background);
     width: 20vh;
-    height: 32vh;
+    height: 40vh;
     
 }
 
 .project-sub-box img{
     width: 10vw;
     height: 10vw;
-    margin-bottom: 1vh;
+    margin-bottom: 2vh;
 }
 
 .project-sub-box h3{
     font-size: 2rem;
-    margin-top: 5vh;
+    margin-top: 6vh;
     margin-left: 1vh;
 }
 
 .project-sub-box-column-one {
-    margin: 2vh 3vw 0 4.5vw;
+    margin: 4vh 3vw 0 4.5vw;
     display: inline-flex;
     flex-direction: column;
 }
 
 .project-sub-box-column-two {
-    margin: 2vh 4.5vw 0 3vw;
+    margin: 4vh 4.5vw 0 3vw;
     width: 10vw;
     display: inline-flex;
     flex-direction: column;
@@ -198,20 +210,18 @@ hr{
 
 footer{
     margin: 2vh 2vw;
+    position:absolute;
+    bottom:0;
 }
 
 .footer-background {
     background-color: var(--color-box-background);
-
-    width: 98vw;
-    height: 6vh;    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    width: 96vw;
+    height: 6vh;
 }
 
 footer hr{
-    width: 98vw;
+    width: 96vw;
     margin-bottom: 0.5vh;
     border-color: var(--color-line-separator);
     border-bottom: 0.5vh solid var(--color-line-separator); 
@@ -222,5 +232,4 @@ footer p{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-  
 }
