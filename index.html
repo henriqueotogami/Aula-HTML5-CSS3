@@ -2,77 +2,74 @@
 <html lang = "pt-br">
     <head>
         <meta charset = "utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
         <title> HMAP </title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="icons/icon-rocket.svg" type="image/svg">
     </head>
 
     <body>
-        <nav>
-            <p>Menu: Minha Página</p>
-            <ul>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#clientes">Clientes</a></li>
-                <li><a href="#parceiros">Parceiros</a></li>
-                <li><a href="#equipe">Equipe</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <p> HOME: Minha primeira página </p>
-
-        <header>
-            <h1>
-                Minha primeira página com HTML5.
-            </h1>
-            <p> status: 
-                Nerd since 1996. </p>
-        </header>
-
-        <section id="servicos">
-            <h2>Serviços</h2>
-            <p>Oferecemos os melhores sites e apps.</p>
-        </section>
+        <div class="hmap-no-background" id="container">
+            <img src="images/hmap-no-background.png" alt="hmap-no-background">
+            <h1>HENRIQUE MATHEUS ALVES PEREIRA</h1>
+        </div>
+        <hr>
+        <div class="social-box" id="container">
+            <a href="11949253226">
+                <img src="icons/icon-whatsapp.png" alt="WhatsApp">
+            </a>
+            <a href="https://www.linkedin.com/in/henrique-matheus-alves-pereira/">
+                <img src="icons/icon-linkedin.png" alt="LinkedIn">
+            </a>
+            <a href="mailto:henrique.map@outlook.com">
+                <img src="icons/icon-email.png" alt="E-mail">
+            </a>
+            <a href="https://github.com/HenriqueMAP">
+                <img src="icons/icon-github.png" alt="GitHub">
+            </a>
+            
+        </div>
+        <div class="about">
+            <h2>SOBRE</h2>
+            <p>Apaixonado por tecnologia, ciência, engenharia elétrica e aeroespacial, ciclismo de montanha e flautista voluntário na Congregação Cristã no Brasil.</p>
+        </div>
+        <div class="project-box" id="container">
+            <div class="project-main-box">
+                <div class="project-main-box-title">
+                    <h2>PROJETO</h2>
+                </div>
+                <img src="icons/icon-rocket-stopped.png" alt="Project Icon">
+                <div class="project-main-box-subtitle">
+                    <h3>Primeira página</h3>
+                </div>
+                <p>Após concluir o curso de HTML5 e o Bootcamp da Digital Innovation One, decidi recomeçar o projeto do site. Aqui estou utilizando apenas HTML5 e CSS3, após seguir a concepção que idealizei utilizando o Canva. Ao lado, estou destacando as tecnologias que estou estudando, com exceção do Swift que ainda não comecei. A fonte que escolhi é Roboto. Utilizei o conceito de "Mobile First", e após concluir, estudei para compatibilizar com a responsividade. Esse texto é meramente ilustrativo.</p>
+                <a href="https://github.com/HenriqueMAP">https://github.com/HenriqueMAP</a>
+            </div>
+            <div class="project-sub-box">
+                <div class="project-sub-box-subtitle">
+                    <h3>Tecnologias</h3>
+                </div>
+                <div class="project-sub-box-column-one">
+                    <img src="icons/icon-python.svg" alt="Python-logo">
+                    <img src="icons/icon-javascript.svg" alt="JavaScript-logo">
+                    <img src="icons/icon-postgresql.svg" alt="PostgreSQL-logo">  
+                </div>
+                <div class="project-sub-box-column-two">
+                    <img src="icons/icon-html5.svg" alt="HTML5-logo">
+                    <img src="icons/icon-css3.svg" alt="CSS3-logo">
+                    <img src="icons/icon-swift.svg" alt="Swift-logo"> 
+                </div>  
+            </div>
+        </div>
         
-        <section id="clientes">
-            <h2>Clientes</h2>
-            <p>Nossos clientes ficaram muitos satisfeitos com nossos serviços.</p>
-            <img src="images/wallpaper-tv-704555.jpg" class="image_default">
-        </section>
-
-        <section id="parceiros">
-            <h2>Parceiros</h2>
-            <p>Nossos parceiros nos ajudam a entregar maiores soluções para os nossos clientes.</p>
-            <p>Clique no logotipo abaixo para ser redirecionado.</p>
-            <div>
-                <a href="https://web.digitalinnovation.one/home" target="_blank"><img src="images/parceiro1.png" width="150px"></a>
-            </div>
-        </section>
-
-        <section id="equipe">
-            <h2>Equipe</h2>
-            <p>Nossa equipe trabalha com muita qualidade e empenho para entregar o melhor produto para nossos clientes.</p>
-            <div>
-                <img src="icons/team-48x48.png">
-            </div>
-        </section>
-
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato com a nossa equipe</p>
-            <div>
-                <img src="icons/email-48x48.png">
-                <p><a href="mailto:contato@hmap.com.br">contato@hmap.com.br</a></p>
-            </div> 
-            <div>
-                <img src="icons/phone-48x48.png">
-                <p><a href="11949253226">(11)94925-3226</a></p>
-            </div>
-        </section>
-
-
         <footer>
-            <p> Desenvolvido por HMAP. Bootcamp Fullstack Python 2020. </p>
+            
+            <div class="footer-background">
+                <hr>
+                <p>Desenvolvido por HMAP</p>
+                <p>Bootcamp Fullstack Python 2020</p>
+            </div>
         </footer>
 
     </body>
-
 </html>
