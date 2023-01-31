@@ -1,7 +1,7 @@
 <h4>Mobile: 736px X 414px</h4>
-<img src="https://github.com/HenriqueMAP/Aula-HTML5-CSS3/blob/master/Fourty-day-coding-mobile-Iphone6S-7-8Plus.png" width="300" />
+<img src="https://github.com/henriqueotogami/Aula-HTML5-CSS3/blob/master/Fourty-day-coding-mobile-Iphone6S-7-8Plus.png" width="300" />
 <h4>Desktop: 1042px X 1920px</h4>
-<img src="https://github.com/HenriqueMAP/Aula-HTML5-CSS3/blob/master/Fourty-day-coding-desktop-1920x1042.png" width="900" />
+<img src="https://github.com/henriqueotogami/Aula-HTML5-CSS3/blob/master/Fourty-day-coding-desktop-1920x1042.png" width="900" />
 
 # Aula HTML5 + CSS3
 ## [Rafael Galleani](https://www.github.com/rafegal)
